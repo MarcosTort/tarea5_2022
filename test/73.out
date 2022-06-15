@@ -1,0 +1,66 @@
+1>#  Prueba esAvl.
+2>Es AVL.
+3>Se insertó (23,23.00) en el abb.
+4>Es AVL.
+5>Se insertó (15,15.00) en el abb.
+6>Es AVL.
+7>Se insertó (30,30.00) en el abb.
+8>Se insertó (40,40.00) en el abb.
+9>Es AVL.
+10>Se insertó (10,10.00) en el abb.
+11>Es AVL.
+12>Se insertó (35,35.00) en el abb.
+13>NO es AVL.
+14>Se insertó (45,45.00) en el abb.
+15>NO es AVL.
+16>Se insertó (28,28.00) en el abb.
+17>Es AVL.
+18>Se insertó (50,50.00) en el abb.
+19>NO es AVL.
+20>Se insertó (24,24.00) en el abb.
+21>NO es AVL.
+22>Se insertó (5,5.00) en el abb.
+23>NO es AVL.
+24>Se insertó (18,18.00) en el abb.
+25>Es AVL.
+26>Se insertó (4,4.00) en el abb.
+27>NO es AVL.
+28>Se insertó (8,8.00) en el abb.
+29>NO es AVL.
+30>Se insertó (12,12.00) en el abb.
+31>NO es AVL.
+32>Se insertó (20,20.00) en el abb.
+33>Es AVL.
+34>Se insertó (11,11.00) en el abb.
+35>Se insertó (13,13.00) en el abb.
+36>Es AVL.
+37>Se insertó (14,14.00) en el abb.
+38>NO es AVL.
+39>Se insertó (21,21.00) en el abb.
+40>NO es AVL.
+41>Se insertó (16,16.00) en el abb.
+42>Es AVL.
+43>Se insertó (9,9.00) en el abb.
+44>Se insertó (6,6.00) en el abb.
+45>Es AVL.
+46>Se insertó (7,7.00) en el abb.
+47>NO es AVL.
+48>Se insertó (2,2.00) en el abb.
+49>NO es AVL.
+50>Se insertó (22,22.00) en el abb.
+51>NO es AVL.
+52>Se insertó (19,19.00) en el abb.
+53>NO es AVL.
+54>Se insertó (17,17.00) en el abb.
+55>NO es AVL.
+56>Se insertó (55,55.00) en el abb.
+57>NO es AVL.
+58>Se insertó (42,42.00) en el abb.
+59>NO es AVL.
+60>Se insertó (37,37.00) en el abb.
+61>NO es AVL.
+62>Se insertó (26,26.00) en el abb.
+63>NO es AVL.
+64>Se insertó (29,29.00) en el abb.
+65>Es AVL.
+66>Fin.

@@ -1,0 +1,170 @@
+estaOrdenada
+insertarAlInicio 50 1.0
+estaOrdenada
+insertarAlInicio 50 0
+estaOrdenada
+removerDeCadena 50
+insertarAlInicio 51 0
+estaOrdenada
+removerDeCadena 51
+insertarAlInicio 40 0
+estaOrdenada
+insertarAlInicio 40 0
+insertarAlInicio 30 0
+estaOrdenada
+removerDeCadena 50
+estaOrdenada
+removerDeCadena 40
+estaOrdenada
+insertarAlInicio 29 0
+insertarAlInicio 28 0
+insertarAlInicio 27 0
+insertarAlInicio 26 0
+insertarAlInicio 25 0
+estaOrdenada
+reiniciarEstructuras
+crearBalanceado 0
+crearBalanceado 1 (50, 0)
+crearBalanceado 2 (40, 0) (50, 0)
+crearBalanceado 3 (30, 0) (40, 0) (50, 0)
+crearBalanceado 6 (10, 0) (20, 0) (30, 0) (40, 0) (50, 0) (60, 0) 
+crearBalanceado 7 (10, 0) (20, 0) (30, 0) (40, 0) (50, 0) (60, 0) (70, 0) 
+crearBalanceado 8 (10, 0) (20, 0) (30, 0) (40, 0) (50, 0) (60, 0) (70, 0) (1000, 0) 
+crearBalanceado 15 (10, 0) (20, 0) (30, 0) (40, 0) (50, 0) (60, 0) (70, 0) (71, 0) (72, 0) (73, 0) (74, 0) (75, 0) (76, 0) (77, 0) (78, 0)
+crearBalanceado 16 (10, 0) (20, 0) (30, 0) (40, 0) (50, 0) (60, 0) (70, 0) (71, 0) (72, 0) (73, 0) (74, 0) (75, 0) (76, 0) (77, 0) (78, 0) (1000, 0) 
+reiniciarEstructuras
+mezclaCadenas 0 0
+mezclaCadenas 0 1 (50,0)
+mezclaCadenas 1 (50,0) 0
+mezclaCadenas 1 (40,0) 1 (50,0)
+mezclaCadenas 1 (40,0) 1 (30,0)
+mezclaCadenas 1 (40,3.0) 1 (40,0)
+mezclaCadenas 1 (90,0) 4 (10,0) (20,0) (30,0) (40,0)
+mezclaCadenas 4 (10,0) (20,0) (30,0) (40,0) 1 (90,0)
+mezclaCadenas 3 (70,0) (80,0) (90,0) 4 (10,0) (20,0) (30,0) (40,0)
+mezclaCadenas 4 (10,0) (20,0) (30,0) (40,0) 3 (70,0) (80,0) (90,0)
+mezclaCadenas 3 (70,0) (80,0) (90,0) 4 (65,0) (75,0) (85,0) (95,0)
+mezclaCadenas 4 (65,0) (75,0) (85,0) (95,0) 3 (70,0) (80,0) (90,0)
+mezclaCadenas 4 (20,1) (30,0) (40,3) (50,3) 3 (20,0) (35,0) (50,0)
+mezclaCadenas 4 (20,1) (30,0) (40,3) (50,3) 3 (25,0) (40,0) (45,0)
+mezclaCadenas 4 (20,1) (30,0) (40,3) (50,3) 3 (15,0) (30,0) (55,0)
+reiniciarEstructuras
+unionAbbs 0 0
+unionAbbs 1 (50,0) 0
+unionAbbs 0 1 (40,0)
+unionAbbs 1 (30,3) 1 (30,0)
+unionAbbs 1 (50,0) 1 (40,0)
+unionAbbs 1 (30,0) 1 (40,0)
+unionAbbs 0 4 (40,0) (30,0) (50,0) (20,0)
+unionAbbs 4 (40,0) (30,0) (50,0) (20,0) 0
+unionAbbs 4 (40,0) (30,0) (50,3) (20,0) 2 (50,0) (20,0)
+unionAbbs 4 (40,0) (30,0) (50,3) (20,0) 4 (40,0) (30,0) (50,0) (20,0)
+unionAbbs 6 (10,0) (20,0) (30,0) (40,0) (50,0) (60,0) 7 (65,0) (55,0) (45,0) (35,0) (25,0) (15,0) (5,0)
+reiniciarEstructuras
+cantidadEnPila
+apilar (3,3.0)
+cantidadEnPila
+cima
+desapilar
+cantidadEnPila
+apilar (5,5.0)
+apilar (6,5.0)
+apilar (3,5.0)
+apilar (8,5.0)
+apilar (2,5.0)
+apilar (1,5.0)
+apilar (10,5.0)
+apilar (5,3.0)
+cima
+cantidadEnPila
+desapilar
+cima
+cantidadEnPila
+apilar (21,5.0)
+apilar (18,5.0)
+apilar (13,5.0)
+apilar (30,5.0)
+apilar (1,5.0)
+apilar (1,5.0)
+cima
+cantidadEnPila
+reiniciarEstructuras
+cantidadEnCola
+encolar (3,3.0)
+cantidadEnCola
+frente
+desencolar
+cantidadEnCola
+encolar (5,5.0)
+encolar (6,5.0)
+encolar (3,5.0)
+encolar (8,5.0)
+encolar (2,5.0)
+encolar (1,5.0)
+encolar (10,5.0)
+encolar (5,3.0)
+frente
+cantidadEnCola
+desencolar
+frente
+cantidadEnCola
+encolar (21,5.0)
+encolar (18,5.0)
+encolar (13,5.0)
+encolar (30,5.0)
+encolar (1,5.0)
+encolar (1,5.0)
+frente
+cantidadEnCola
+reiniciarEstructuras
+ordenadaPorModulo 2
+insertarAlInicio 50 50.0
+ordenadaPorModulo 2
+insertarAlInicio 50 60.0
+ordenadaPorModulo 2
+insertarAlInicio 11 11.0
+ordenadaPorModulo 2
+insertarAlFinal 40 40.0
+ordenadaPorModulo 2
+ordenadaPorModulo 3
+ordenadaPorModulo 4
+ordenadaPorModulo 10
+ordenadaPorModulo 100
+insertarAlFinal 54 0.0
+insertarAlFinal 49 0.0
+insertarAlFinal 121 0.0
+insertarAlFinal 18 0.0
+ordenadaPorModulo 9
+ordenadaPorModulo 7
+ordenadaPorModulo 11
+ordenadaPorModulo 6
+reiniciarEstructuras
+menoresQueElResto
+insertarAlInicio 50 50.0
+menoresQueElResto
+insertarAlInicio 60 40.0
+menoresQueElResto
+insertarAlFinal 60 60.0
+menoresQueElResto
+insertarAlFinal 60 70.0
+menoresQueElResto
+insertarAlInicio 50 40.0
+menoresQueElResto
+insertarAlInicio 30 30.0
+insertarAlFinal 40 40.0
+menoresQueElResto
+insertarAlFinal 50 5.0
+insertarAlFinal 61 60.0
+insertarAlFinal 62 60.0
+insertarAlFinal 63 60.0
+insertarAlFinal 64 60.0
+insertarAlFinal 65 60.0
+insertarAlFinal 60 60.0
+insertarAlFinal 70 70.0
+insertarAlFinal 60 6.0
+insertarAlFinal 70 7.0
+menoresQueElResto
+insertarAlFinal 10 1.0
+menoresQueElResto
+reiniciarEstructuras
+Fin

@@ -1,0 +1,25 @@
+# Prueba de filtradaOrdenada
+filtradaOrdenada -1
+filtradaOrdenada 5 5
+insertarAlFinal 6 6.0
+filtradaOrdenada -1
+filtradaOrdenada 6 0
+filtradaOrdenada 5 6 7 0
+filtradaOrdenada 4 5 6 0
+insertarAlFinal 4 4.0
+insertarAlFinal 6 5.0
+filtradaOrdenada 6 0
+filtradaOrdenada 5 6 7 0
+filtradaOrdenada 4 5 6 0
+insertarAlFinal 5 5.0
+insertarAlInicio 123456789 1.0
+filtradaOrdenada 6 0
+filtradaOrdenada 5 6 7 0
+filtradaOrdenada 4 6 123456789 0
+insertarAlFinal 33 33.0
+insertarAlFinal 6 4.0
+insertarAlFinal 700000 7.0
+insertarAlFinal 4 3.0
+insertarAlFinal 4 5.0
+filtradaOrdenada 1 4 5 6 31 33 35 700000 123456789 0
+Fin

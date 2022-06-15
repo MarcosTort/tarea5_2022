@@ -1,0 +1,25 @@
+1>#  Prueba de filtradaOrdenada.
+2>
+3>
+4>Se insertó (6,6.00) al final de la cadena.
+5>
+6>(6,6.00)
+7>(6,6.00)
+8>(6,6.00)
+9>Se insertó (4,4.00) al final de la cadena.
+10>Se insertó (6,5.00) al final de la cadena.
+11>(6,11.00)
+12>(6,11.00)
+13>(4,4.00)(6,11.00)
+14>Se insertó (5,5.00) al final de la cadena.
+15>Se insertó (123456789,1.00) al inicio de la cadena.
+16>(6,11.00)
+17>(5,5.00)(6,11.00)
+18>(4,4.00)(6,11.00)(123456789,1.00)
+19>Se insertó (33,33.00) al final de la cadena.
+20>Se insertó (6,4.00) al final de la cadena.
+21>Se insertó (700000,7.00) al final de la cadena.
+22>Se insertó (4,3.00) al final de la cadena.
+23>Se insertó (4,5.00) al final de la cadena.
+24>(4,12.00)(5,5.00)(6,15.00)(33,33.00)(700000,7.00)(123456789,1.00)
+25>Fin.

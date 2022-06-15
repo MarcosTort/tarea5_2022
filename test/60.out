@@ -1,0 +1,264 @@
+1>La cadena está ordenada.
+2>Se insertó (50,1.00) al inicio de la cadena.
+3>La cadena está ordenada.
+4>Se insertó (50,0.00) al inicio de la cadena.
+5>La cadena no está ordenada.
+6>Se removió la primera aparición de 50 de la cadena.
+7>Se insertó (51,0.00) al inicio de la cadena.
+8>La cadena no está ordenada.
+9>Se removió la primera aparición de 51 de la cadena.
+10>Se insertó (40,0.00) al inicio de la cadena.
+11>La cadena está ordenada.
+12>Se insertó (40,0.00) al inicio de la cadena.
+13>Se insertó (30,0.00) al inicio de la cadena.
+14>La cadena no está ordenada.
+15>Se removió la primera aparición de 50 de la cadena.
+16>La cadena no está ordenada.
+17>Se removió la primera aparición de 40 de la cadena.
+18>La cadena está ordenada.
+19>Se insertó (29,0.00) al inicio de la cadena.
+20>Se insertó (28,0.00) al inicio de la cadena.
+21>Se insertó (27,0.00) al inicio de la cadena.
+22>Se insertó (26,0.00) al inicio de la cadena.
+23>Se insertó (25,0.00) al inicio de la cadena.
+24>La cadena está ordenada.
+25>Estructuras reiniciadas.
+26>
+27>
+(50,0.00)
+28>
+-(50,0.00)
+(40,0.00)
+29>
+-(50,0.00)
+(40,0.00)
+-(30,0.00)
+30>
+--(60,0.00)
+-(50,0.00)
+--(40,0.00)
+(30,0.00)
+--(20,0.00)
+-(10,0.00)
+31>
+--(70,0.00)
+-(60,0.00)
+--(50,0.00)
+(40,0.00)
+--(30,0.00)
+-(20,0.00)
+--(10,0.00)
+32>
+---(1000,0.00)
+--(70,0.00)
+-(60,0.00)
+--(50,0.00)
+(40,0.00)
+--(30,0.00)
+-(20,0.00)
+--(10,0.00)
+33>
+---(78,0.00)
+--(77,0.00)
+---(76,0.00)
+-(75,0.00)
+---(74,0.00)
+--(73,0.00)
+---(72,0.00)
+(71,0.00)
+---(70,0.00)
+--(60,0.00)
+---(50,0.00)
+-(40,0.00)
+---(30,0.00)
+--(20,0.00)
+---(10,0.00)
+34>
+----(1000,0.00)
+---(78,0.00)
+--(77,0.00)
+---(76,0.00)
+-(75,0.00)
+---(74,0.00)
+--(73,0.00)
+---(72,0.00)
+(71,0.00)
+---(70,0.00)
+--(60,0.00)
+---(50,0.00)
+-(40,0.00)
+---(30,0.00)
+--(20,0.00)
+---(10,0.00)
+35>Estructuras reiniciadas.
+36>
+37>(50,0.00)
+38>(50,0.00)
+39>(40,0.00)(50,0.00)
+40>(30,0.00)(40,0.00)
+41>(40,3.00)
+42>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(90,0.00)
+43>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(90,0.00)
+44>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(70,0.00)(80,0.00)(90,0.00)
+45>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(70,0.00)(80,0.00)(90,0.00)
+46>(65,0.00)(70,0.00)(75,0.00)(80,0.00)(85,0.00)(90,0.00)(95,0.00)
+47>(65,0.00)(70,0.00)(75,0.00)(80,0.00)(85,0.00)(90,0.00)(95,0.00)
+48>(20,1.00)(30,0.00)(35,0.00)(40,3.00)(50,3.00)
+49>(20,1.00)(25,0.00)(30,0.00)(40,3.00)(45,0.00)(50,3.00)
+50>(15,0.00)(20,1.00)(30,0.00)(40,3.00)(50,3.00)(55,0.00)
+51>Estructuras reiniciadas.
+52>
+53>
+(50,0.00)
+54>
+(40,0.00)
+55>
+(30,3.00)
+56>
+-(50,0.00)
+(40,0.00)
+57>
+-(40,0.00)
+(30,0.00)
+58>
+--(50,0.00)
+-(40,0.00)
+(30,0.00)
+-(20,0.00)
+59>
+--(50,0.00)
+-(40,0.00)
+(30,0.00)
+-(20,0.00)
+60>
+--(50,3.00)
+-(40,0.00)
+(30,0.00)
+-(20,0.00)
+61>
+--(50,3.00)
+-(40,0.00)
+(30,0.00)
+-(20,0.00)
+62>
+---(65,0.00)
+--(60,0.00)
+---(55,0.00)
+-(50,0.00)
+---(45,0.00)
+--(40,0.00)
+(35,0.00)
+---(30,0.00)
+--(25,0.00)
+---(20,0.00)
+-(15,0.00)
+---(10,0.00)
+--(5,0.00)
+63>Estructuras reiniciadas.
+64>Cantidad en pila: 0.
+65>Apilando (3,3.00)
+66>Cantidad en pila: 1.
+67>(3,3.00)
+68>Desapilando.
+69>Cantidad en pila: 0.
+70>Apilando (5,5.00)
+71>Apilando (6,5.00)
+72>Apilando (3,5.00)
+73>Apilando (8,5.00)
+74>Apilando (2,5.00)
+75>Apilando (1,5.00)
+76>Apilando (10,5.00)
+77>Apilando (5,3.00)
+78>(5,3.00)
+79>Cantidad en pila: 8.
+80>Desapilando.
+81>(10,5.00)
+82>Cantidad en pila: 7.
+83>Apilando (21,5.00)
+84>Apilando (18,5.00)
+85>Apilando (13,5.00)
+86>Apilando (30,5.00)
+87>Apilando (1,5.00)
+88>Apilando (1,5.00)
+89>(1,5.00)
+90>Cantidad en pila: 13.
+91>Estructuras reiniciadas.
+92>Cantidad en cola: 0.
+93>Encolando (3,3.00)
+94>Cantidad en cola: 1.
+95>(3,3.00)
+96>Desencolando.
+97>Cantidad en cola: 0.
+98>Encolando (5,5.00)
+99>Encolando (6,5.00)
+100>Encolando (3,5.00)
+101>Encolando (8,5.00)
+102>Encolando (2,5.00)
+103>Encolando (1,5.00)
+104>Encolando (10,5.00)
+105>Encolando (5,3.00)
+106>(5,5.00)
+107>Cantidad en cola: 8.
+108>Desencolando.
+109>(6,5.00)
+110>Cantidad en cola: 7.
+111>Encolando (21,5.00)
+112>Encolando (18,5.00)
+113>Encolando (13,5.00)
+114>Encolando (30,5.00)
+115>Encolando (1,5.00)
+116>Encolando (1,5.00)
+117>(6,5.00)
+118>Cantidad en cola: 13.
+119>Estructuras reiniciadas.
+120>
+121>Se insertó (50,50.00) al inicio de la cadena.
+122>(50,50.00)
+123>Se insertó (50,60.00) al inicio de la cadena.
+124>(50,60.00)(50,50.00)
+125>Se insertó (11,11.00) al inicio de la cadena.
+126>(50,60.00)(50,50.00)(11,11.00)
+127>Se insertó (40,40.00) al final de la cadena.
+128>(50,60.00)(50,50.00)(40,40.00)(11,11.00)
+129>(40,40.00)(11,11.00)(50,60.00)(50,50.00)
+130>(40,40.00)(50,60.00)(50,50.00)(11,11.00)
+131>(50,60.00)(50,50.00)(40,40.00)(11,11.00)
+132>(11,11.00)(40,40.00)(50,60.00)(50,50.00)
+133>Se insertó (54,0.00) al final de la cadena.
+134>Se insertó (49,0.00) al final de la cadena.
+135>Se insertó (121,0.00) al final de la cadena.
+136>Se insertó (18,0.00) al final de la cadena.
+137>(54,0.00)(18,0.00)(11,11.00)(40,40.00)(49,0.00)(121,0.00)(50,60.00)(50,50.00)
+138>(49,0.00)(50,60.00)(50,50.00)(121,0.00)(11,11.00)(18,0.00)(40,40.00)(54,0.00)
+139>(11,11.00)(121,0.00)(49,0.00)(50,60.00)(50,50.00)(40,40.00)(18,0.00)(54,0.00)
+140>(54,0.00)(18,0.00)(49,0.00)(121,0.00)(50,60.00)(50,50.00)(40,40.00)(11,11.00)
+141>Estructuras reiniciadas.
+142>
+143>Se insertó (50,50.00) al inicio de la cadena.
+144>(50,50.00)
+145>Se insertó (60,40.00) al inicio de la cadena.
+146>(50,50.00)
+147>Se insertó (60,60.00) al final de la cadena.
+148>(60,60.00)(50,50.00)
+149>Se insertó (60,70.00) al final de la cadena.
+150>(60,70.00)(50,50.00)
+151>Se insertó (50,40.00) al inicio de la cadena.
+152>(60,70.00)(50,50.00)
+153>Se insertó (30,30.00) al inicio de la cadena.
+154>Se insertó (40,40.00) al final de la cadena.
+155>(40,40.00)(30,30.00)
+156>Se insertó (50,5.00) al final de la cadena.
+157>Se insertó (61,60.00) al final de la cadena.
+158>Se insertó (62,60.00) al final de la cadena.
+159>Se insertó (63,60.00) al final de la cadena.
+160>Se insertó (64,60.00) al final de la cadena.
+161>Se insertó (65,60.00) al final de la cadena.
+162>Se insertó (60,60.00) al final de la cadena.
+163>Se insertó (70,70.00) al final de la cadena.
+164>Se insertó (60,6.00) al final de la cadena.
+165>Se insertó (70,7.00) al final de la cadena.
+166>(70,7.00)(60,6.00)(50,5.00)(40,40.00)(30,30.00)
+167>Se insertó (10,1.00) al final de la cadena.
+168>(10,1.00)
+169>Estructuras reiniciadas.
+170>Fin.

@@ -1,0 +1,42 @@
+# Prueba de rotar
+rotar 20 LR
+insertarEnAbb (50,0)
+rotar 20 LR
+rotar 50 LR
+rotar 50 LL
+insertarEnAbb (30,0)
+insertarEnAbb (40,0)
+insertarEnAbb (45,0)
+rotar 50 LL
+imprimirAbb
+rotar 30 RR
+imprimirAbb
+rotar 50 LR
+imprimirAbb
+rotar 40 RL
+imprimirAbb
+rotar 30 LL
+imprimirAbb
+rotar 40 LR
+imprimirAbb
+insertarEnAbb (35,0)
+rotar 40 LR
+imprimirAbb
+insertarEnAbb (70,0)
+insertarEnAbb (60,0)
+insertarEnAbb (65,0)
+insertarEnAbb (90,0)
+insertarEnAbb (80,0)
+insertarEnAbb (55,0)
+imprimirAbb
+rotar 70 RL
+imprimirAbb
+rotar 80 LL
+imprimirAbb
+rotar 70 RR
+imprimirAbb
+rotar 50 RL
+imprimirAbb
+rotar 70 LR
+imprimirAbb
+Fin

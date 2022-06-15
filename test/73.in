@@ -1,0 +1,66 @@
+# Prueba esAvl
+esAvl
+insertarEnAbb (23,23.0)
+esAvl
+insertarEnAbb (15,15.0)
+esAvl
+insertarEnAbb (30,30.0)
+insertarEnAbb (40,40.0)
+esAvl
+insertarEnAbb (10,10.0)
+esAvl
+insertarEnAbb (35,35.0)
+esAvl
+insertarEnAbb (45,45.0)
+esAvl
+insertarEnAbb (28,28.0)
+esAvl
+insertarEnAbb (50,50.0)
+esAvl
+insertarEnAbb (24,24.0)
+esAvl
+insertarEnAbb (5,5.0)
+esAvl
+insertarEnAbb (18,18.0)
+esAvl
+insertarEnAbb (4,4.0)
+esAvl
+insertarEnAbb (8,8.0)
+esAvl
+insertarEnAbb (12,12.0)
+esAvl
+insertarEnAbb (20,20.0)
+esAvl
+insertarEnAbb (11,11.0)
+insertarEnAbb (13,13.0)
+esAvl
+insertarEnAbb (14,14.0)
+esAvl
+insertarEnAbb (21,21.0)
+esAvl
+insertarEnAbb (16,16.0)
+esAvl
+insertarEnAbb (9,9.0)
+insertarEnAbb (6,6.0)
+esAvl
+insertarEnAbb (7,7.0)
+esAvl
+insertarEnAbb (2,2.0)
+esAvl
+insertarEnAbb (22,22.0)
+esAvl
+insertarEnAbb (19,19.0)
+esAvl
+insertarEnAbb (17,17.0)
+esAvl
+insertarEnAbb (55,55.0)
+esAvl
+insertarEnAbb (42,42.0)
+esAvl
+insertarEnAbb (37,37.0)
+esAvl
+insertarEnAbb (26,26.0)
+esAvl
+insertarEnAbb (29,29.0)
+esAvl
+Fin
