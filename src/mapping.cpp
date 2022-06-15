@@ -47,10 +47,7 @@ void liberarMap(TMapping map)
 TMapping asociarEnMap(nat clave, double valor, TMapping map)
 {
     nat indice = get_bucket(clave, map->tamanio);
-    if (map->array[indice] == NULL)
-    {
-        map->cantidad++;
-    }
+    map->cantidad++;
     map->array[indice] = insertarAlInicio( clave ,valor, map->array[indice]);
     return map;
 }
