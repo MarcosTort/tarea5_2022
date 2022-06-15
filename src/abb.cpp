@@ -190,9 +190,9 @@ void rotarDerecha(TAbb &abb)
     TInfo dato1 = abb->dato;
     TInfo dato2 = l->dato;
     abb->dato = dato2;
-    l->dato = dato1;
     abb->izq = l;
     abb->der = c;
+    l->dato = dato1;
     l->der = b;
     l->izq = a;
 }
@@ -200,15 +200,15 @@ void rotarIzquierda(TAbb &abb)
 {
     TAbb k, a, b, c;
     k = abb->izq;
+    c = abb->der;
     a = k->izq;
     b = k->der;
-    c = abb->der;
     TInfo dato1 = abb->dato;
     TInfo dato2 = k->dato;
-    k->dato = dato1;
     abb->dato = dato2;
     abb->der = k;
     abb->izq = a;
+    k->dato = dato1;
     k->der = c;
     k->izq = b;
 }
@@ -242,7 +242,7 @@ TAbb rotar(nat clave, char tipo[2], TAbb abb)
 
             else
             {
-                if (abb->izq != NULL)
+                if (tipo[0] == 'L' && tipo[1] == 'L' &&  abb->izq != NULL )
                 {
                     rotarIzquierda(abb);
                     return abb;
