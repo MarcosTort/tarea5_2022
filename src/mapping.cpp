@@ -41,6 +41,7 @@ void liberarMap(TMapping map)
         liberarCadena(map->array[i]);
     }
     delete[] map->array;
+    delete map;
 }
 
 TMapping asociarEnMap(nat clave, double valor, TMapping map)
