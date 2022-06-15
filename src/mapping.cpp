@@ -51,7 +51,6 @@ TMapping asociarEnMap(nat clave, double valor, TMapping map)
     {
         map->cantidad++;
     }
-    liberarCadena(map->array[indice]);
     map->array[indice] = insertarAlInicio( clave ,valor, map->array[indice]);
     return map;
 }
