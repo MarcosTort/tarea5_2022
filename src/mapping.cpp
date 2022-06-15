@@ -6,8 +6,6 @@
 #include <limits.h> 
 #include <stdlib.h>  
 
-typedef struct _rep_celda *Tcelda;
-
 struct _rep_mapping
 {
     TCadena *array;
