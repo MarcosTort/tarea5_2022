@@ -180,32 +180,79 @@ TAbb copiaAbb(TAbb abb)
     }
 }
 
-TAbb rotar(nat clave, char tipo[2], TAbb abb) { 
+void rotarDerecha(TAbb &abb)
+{
+    TAbb l, a, b, c;
+    l = abb->der;
+    a = abb->izq;
+    b = l->izq;
+    c = l->der;
+    TInfo dato1 = abb->dato;
+    TInfo dato2 = l->dato;
+    abb->dato = dato2;
+    l->dato = dato1;
+    abb->izq = l;
+    abb->der = c;
+    l->der = b;
+    l->izq = a;
+}
+void rotarIzquierda(TAbb &abb)
+{
+    TAbb k, a, b, c;
+    k = abb->izq;
+    a = k->izq;
+    b = k->der;
+    c = abb->der;
+    TInfo dato1 = abb->dato;
+    TInfo dato2 = k->dato;
+    k->dato = dato1;
+    abb->dato = dato2;
+    abb->der = k;
+    abb->izq = a;
+    k->der = c;
+    k->izq = b;
+}
+
+TAbb rotar(nat clave, char tipo[2], TAbb abb)
+{
     if (abb == NULL)
         return NULL;
     else
     {
         if (natInfo(abb->dato) == clave)
         {
-            if (tipo[0] == 'L')
+
+            if (tipo[0] == 'L' && tipo[1] == 'R' && abb->izq != NULL && abb->izq->der != NULL)
             {
-                TAbb aux = abb->izq;
-                abb->izq = aux->der;
-                aux->der = abb;
-                return aux;
+                rotarDerecha(abb->izq);
+                rotarIzquierda(abb);
+                return abb;
             }
+            else if (tipo[0] == 'R' && tipo[1] == 'L' && abb->der != NULL && abb->der->izq != NULL)
+            {
+                rotarIzquierda(abb->der);
+                rotarDerecha(abb);
+                return abb;
+            }
+            else if (tipo[0] == 'R' && tipo[1] == 'R' && abb->der != NULL)
+            {
+                rotarDerecha(abb);
+                return abb;
+            }
+
             else
             {
-                TAbb aux = abb->der;
-                abb->der = aux->izq;
-                aux->izq = abb;
-                return aux;
+                if (abb->izq != NULL)
+                {
+                    rotarIzquierda(abb);
+                    return abb;
+                }
             }
         }
         else if (clave < natInfo(abb->dato))
-            abb->izq = rotar(clave, tipo, abb->izq);
+            rotar(clave, tipo, abb->izq);
         else
-            abb->der = rotar(clave, tipo, abb->der);
+            rotar(clave, tipo, abb->der);
     }
     return abb;
 }
